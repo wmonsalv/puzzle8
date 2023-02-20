@@ -18,8 +18,10 @@ public class Solver {
 		// initial board set-up
 		
 		int [][] gameBoard = {{1,3,4},{8,0,2},{7,6,5}};
+		int [][] gameBoard2 = {{2,8,1},{0,4,3},{7,6,5}};
+		int [][] gameBoard3 = {{5,6,7},{4,0,8},{3,2,1}};
 		
-		BoardNode board = new BoardNode(gameBoard);
+		BoardNode board = new BoardNode(gameBoard3);
 		
 		// search waiting to be initialized
 		Search search = null;
