@@ -1,6 +1,6 @@
 package puzzle8;
 
-import java.awt.List;
+import java.util.List;
 import java.util.ArrayList;
 
 public class Heuristics {
