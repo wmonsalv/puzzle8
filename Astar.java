@@ -3,9 +3,6 @@ package puzzle8;
 import java.util.Comparator;
 import java.util.List;
 
-// import javax.swing.text.html.HTMLDocument.Iterator;
-
-
 
 public class Astar implements Search {
 	//Astar class that creates the Astar search

@@ -45,7 +45,6 @@ public class PathActions {
 			System.out.println(Arrays.deepToString(path.get(i).getMatrix()).replace("], ", "]\n").replace("[[", "[").replace("]]", "]"));
 			System.out.println();
 		}
-		System.out.println("Time: " + info.getTime());
-		System.out.println("Space: " + info.getSpace());
+		System.out.println("Time: " + info.getTime() + "ms");
 	}
 }
